@@ -167,25 +167,27 @@ footer a:hover {
   font-size: 11px;
 }
 
-/* Photo placeholder */
 
-.photo-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+/* Hero image */
+
+
+.hero-image {
+  width: 70%;
+  max-width: 450px;
   min-width: 0;
-  aspect-ratio: 4 / 3;
-  border: 1px dashed var(--border);
+  margin: 0 auto;
+  border: 2px solid #263f57; /* Add this */
   border-radius: 18px;
-  background: var(--navy);
-  color: var(--muted);
+  overflow: hidden;
 }
 
-.photo-placeholder p {
-  margin: 0;
-  font-size: 16px;
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
+
 
 /* Product message */
 
